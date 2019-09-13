@@ -1,0 +1,85 @@
+header {
+  padding: 30px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+/* Anytime float is used, use the below on the parent div */
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header a {
+  color: #4c44c1;
+  text-decoration: none;
+}
+
+header .logo {
+  display: inline-block;
+  float: left;
+  margin-right: 28px;
+}
+
+header .logo img {
+  width: 40px;
+}
+
+header .Menu {
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 9px;
+}
+
+header .Menu a:nth-child(1),
+header .Menu a:nth-child(2),
+header .Menu a:nth-child(3) {
+  margin-right: 20px;
+}
+
+header .Menu a {
+  text-transform: uppercase;
+}
+
+header .header-buttons {
+  display: inline-block;
+  float: right;
+}
+
+header .header-buttons .blue-btn {
+  background: #6066f2;
+  padding: 14px 46px;
+  color: #fff;
+  border-radius: 35px;
+  text-transform: uppercase;
+  position: relative;
+  top: 9px;
+}
+
+header .header-buttons .blue-btn .fas {
+  margin-left: 15px;
+}
+
+header .header-buttons .orange-btn {
+  background: #fea83b;
+  padding: 14px 46px;
+  color: #fff;
+  border-radius: 35px;
+  text-transform: uppercase;
+  position: relative;
+  top: 9px;
+  margin-left: 15px;
+}
+
+
+/* Desktop / Laptops */
+@media only screen and (max-width: 1215px) {}
+
+/* Tablet Devices */
+@media only screen and (max-width: 1023px) {}
+
+/* Moble devices */
+@media only screen and (max-width: 768px) {}

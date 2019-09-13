@@ -1,0 +1,193 @@
+#design-by {
+  position: relative;
+  top: -300px;
+}
+
+#design-by .design-container {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 5px;
+}
+
+/* Background headphone image on Design-by left side */
+#design-by .design-container .bg-container {
+  position: relative;
+  overflow: hidden;
+  background: #6066f2;
+  padding: 45px;
+}
+
+#design-by .design-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#design-by .design-container .bg-image {
+  position: absolute;
+  width: 600px;
+  z-index: 1;
+  opacity: .3;
+  /* right: -100px;
+  top: 0; */
+  right: -185px;
+  top: -100px;
+}
+
+/* Info-Section on the Left side of Design-by */
+#design-by .design-container .info-section {
+  /* background: #6066f2; */
+  width: 40%;
+  display: inline-block;
+  float: left;
+  /* padding: 45px; */
+}
+
+#design-by .design-container .info-section h5 {
+  color: #fea83b;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+#design-by .design-container .info-section h3 {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 1.8rem;
+  position: relative;
+  z-index: 2;
+}
+
+#design-by .design-container .info-section .info-list {
+  margin-bottom: 3rem;
+  position: relative;
+  z-index: 2;
+}
+
+#design-by .design-container .info-section .info-list li {
+  list-style: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 14.5px;
+  vertical-align: top;
+}
+
+#design-by .design-container .info-section .info-list .circle {
+  background: #fea83b;
+  display: inline-block;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+  position: relative;
+  top: 7px;
+}
+
+#design-by .design-container .info-section .info-list .circle .fas {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+#design-by .design-container .info-section .white-btn {
+  background: #fff;
+  border-radius: 50px;
+  padding: 15px 50px;
+  text-decoration: none;
+  color: #6066f2;
+  font-weight: 700;
+  font-size: 1rem;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+}
+
+/* Icon Section on the right side of Design-by */
+#design-by .design-container .icon-section {
+  width: 60%;
+  background: #fff;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+#design-by .design-container .icon-section .refresh-circle {
+  position: absolute;
+  left: 45%;
+  top: 41%;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+#design-by .design-container .icon-section .refresh-circle .fas {
+  position: relative;
+  color: #fea83b;
+  font-size: 3rem;
+  left: 16px;
+  top: 15px;
+}
+
+#design-by .design-container .icon-section .icon-box {
+  width: 50%;
+  height: 209px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  border: 1px solid rgb(73, 73, 73, .2);
+  color: #6066f2;
+  font-size: 1rem;
+  border-bottom: none;
+}
+
+#design-by .design-container .icon-section .icon-box .fas,
+#design-by .design-container .icon-section .icon-box .far {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  margin-top: 69px;
+}
+
+
+/* Desktop / Laptops */
+@media only screen and (max-width: 1215px) {}
+
+/* Tablet Devices */
+@media only screen and (max-width: 1023px) {
+  #design-by .design-container .icon-section .refresh-circle {
+    left: 43%;
+  }
+}
+
+@media only screen and (max-width: 833px) {
+  #design-by .design-container .icon-section .refresh-circle {
+    left: 41%;
+  }
+}
+
+/* Moble devices */
+@media only screen and (max-width: 768px) {
+  #design-by .design-container .info-section {
+    width: 100%;
+  }
+
+  #design-by .design-container .icon-section {
+    width: 100%;
+  }
+
+  #design-by .design-container .bg-container {
+    padding: 20px;
+  }
+
+  #design-by .design-container .info-section .info-list li {
+    line-height: 2;
+  }
+
+  #design-by .design-container .icon-section .refresh-circle {
+    display: none;
+  }
+}

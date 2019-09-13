@@ -1,0 +1,63 @@
+footer {
+    background: #6066f2;
+    padding: 80px 0;
+    text-align: center;
+    color: #fff;
+}
+
+footer h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+}
+
+footer h2 span {
+    font-weight: 700;
+    color: #fea83b;
+}
+
+footer .menu {
+    margin-bottom: 20px;
+}
+
+footer .menu li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+footer .menu li a {
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+footer p {
+    font-size: .8rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+footer .social li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+footer .social li a {
+    color: #e6cdf9;
+    font-size: 2rem;
+    opacity: .5;
+}
+
+
+/* Desktop / Laptops */
+@media only screen and (max-width: 1215px) {}
+
+/* Tablet Devices */
+@media only screen and (max-width: 1023px) {}
+
+/* Moble devices */
+@media only screen and (max-width: 768px) {}

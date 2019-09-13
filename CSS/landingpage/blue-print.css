@@ -1,0 +1,231 @@
+#blue-print {
+    background: rgb(3, 6, 112);
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(3, 6, 112, 1) 0%, rgba(119, 125, 239, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(3, 6, 112, 1) 0%, rgba(119, 125, 239, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(3, 6, 112, 1) 0%, rgba(119, 125, 239, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    padding: 170px 0;
+    color: #fff;
+}
+
+#blue-print:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#blue-print .left-side {
+    width: 50%;
+    float: left;
+}
+
+#blue-print .left-side img {
+    width: 100%;
+}
+
+#blue-print .right-side {
+    width: 50%;
+    float: left;
+}
+
+#blue-print .right-side h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+    line-height: 1.2;
+}
+
+#blue-print .right-side .info-box {
+    padding: 0 0 50px;
+}
+
+#blue-print .right-side .info-box:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#blue-print .right-side .info-box .col-1 {
+    width: 40%;
+    float: left;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    border-right: 5px solid #fea83b;
+    position: relative;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container .dashed-circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px dashed white;
+    margin: 0 auto;
+    top: 11px;
+    left: 11px;
+    position: absolute;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container .fab,
+#blue-print .right-side .info-box .col-1 .icon-container .fas {
+    font-size: 4.5rem;
+    top: 41px;
+    left: 52px;
+    position: absolute;
+}
+
+#blue-print .right-side .info-box .col-2 {
+    width: 60%;
+    float: left;
+    margin-left: -60px;
+}
+
+#blue-print .right-side .info-box .col-2 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+#blue-print .right-side .info-box .col-2 p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#blue-print .right-side .info-box .col-2 a {
+    color: #fea83b;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+
+/* Desktop / Laptops */
+@media only screen and (max-width: 1215px) {
+
+    #blue-print .right-side .info-box .col-2 h3,
+    #blue-print .right-side .info-box .col-2 p,
+    #blue-print .right-side .info-box a {
+        margin-left: 90px;
+    }
+}
+
+/* Tablet Devices */
+@media only screen and (max-width: 1023px) {
+    #blue-print .left-side {
+        width: 40%;
+    }
+
+    #blue-print .right-side {
+        width: 60%;
+    }
+
+    #blue-print .right-side .info-box .col-2 h3,
+    #blue-print .right-side .info-box .col-2 p,
+    #blue-print .right-side .info-box a {
+        margin-left: 90px;
+    }
+
+    #blue-print {
+        padding: 100px 0;
+    }
+
+    #blue-print .right-side h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 60px;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+
+    #blue-print .right-side .info-box .col-1 .icon-container {
+        width: 120px;
+        height: 120px;
+    }
+
+    #blue-print .right-side.info-box .col-1 .icon-container {
+        width: 120px;
+        height: 120px;
+        margin: 20px auto 0;
+    }
+
+    #blue-print .right-side .info-box .col-1 .icon-container .dashed-circle {
+        width: 90px;
+        height: 90px;
+    }
+
+    #blue-print .right-side .info-box .col-1 .icon-container .fab,
+    #blue-print .right-side .info-box .col-1 .icon-container .fas {
+        font-size: 3rem;
+        top: 33px;
+        left: 41px;
+        position: absolute;
+    }
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 768px) {
+    #blue-print {
+        padding: 100px 0;
+    }
+
+    #blue-print img {
+        display: none;
+    }
+
+    #blue-print .left-side {
+        width: 100%;
+    }
+
+    #blue-print .right-side h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 60px;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    #blue-print .right-side {
+        width: 100%;
+    }
+
+    #blue-print .right-side .info-box .col-2 h3,
+    #blue-print .right-side .info-box .col-2 p,
+    #blue-print .right-side .info-box a {
+        margin-left: 90px;
+    }
+
+    #blue-print .right-side .info-box .col-1 .icon-container {
+        width: 120px;
+        height: 120px;
+    }
+
+    #blue-print .right-side.info-box .col-1 .icon-container {
+        width: 120px;
+        height: 120px;
+        margin: 20px auto 0;
+    }
+
+    #blue-print .right-side .info-box .col-1 .icon-container .dashed-circle {
+        width: 90px;
+        height: 90px;
+    }
+
+    #blue-print .right-side .info-box .col-1 .icon-container .fab,
+    #blue-print .right-side .info-box .col-1 .icon-container .fas {
+        font-size: 3rem;
+        top: 33px;
+        left: 41px;
+        position: absolute;
+    }
+}

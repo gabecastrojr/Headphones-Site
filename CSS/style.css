@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap");
+@import "landingpage/reset.css";
+@import "landingpage/header.css";
+@import "landingpage/top-jumbo.css";
+@import "landingpage/design-by.css";
+@import "landingpage/color-collection.css";
+@import "landingpage/blue-print.css";
+@import "landingpage/latest.css";
+@import "landingpage/footer.css";
+
+/* 
+FEA83B Orange
+6066F2 Lightblue
+B286F8 Purple
+4C44C1 Blue
+E6CDF9 Light purple
+*/
+/* header {
+  padding: 30px 0;
+} */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-fluid {
+  margin: 0 5%;
+  padding: 0 20px;
+}
+
+.box-shadow-down {
+  -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.5);
+}
+
+.box-shadow-center {
+  -webkit-box-shadow: 0px 0px 40px -10px rgba(158, 158, 158, 0.5);
+  -moz-box-shadow: 0px 0px 40px -10px rgba(158, 158, 158, 0.5);
+  box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.5);
+}
+
+input::placeholder,
+.far {
+  color: #d5e2ea;
+}
+
+/* Desktop / Laptops */
+@media only screen and (max-width: 1215px) {}
+
+/* Tablet Devices */
+@media only screen and (max-width: 1023px) {}
+
+/* Moble devices */
+@media only screen and (max-width: 768px) {}
